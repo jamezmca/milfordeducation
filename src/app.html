@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<link rel="icon" href="%sveltekit.assets%/favicon.png" />
+	<meta name="viewport" content="width=device-width" />
+	%sveltekit.head%
+	<style>
+		@font-face {
+			font-family: 'Alternate Gothic No3 D';
+			src: url('/fonts/Alternate\ Gothic\ No3\ D\ Regular.otf');
+			/* IE9 Compat Modes */
+			src: local(''), url('/fonts/Alternate\ Gothic\ No3\ D\ Regular.otf') format('embedded-opentype'),
+				/* IE6-IE8 */
+				url('/fonts/Alternate\ Gothic\ No3\ D\ Regular.otf') format('otf'),
+				/* Super Modern Browsers */
+				url('/fonts/Alternate\ Gothic\ No3\ D\ Regular.otf') format('otf'),
+				/* Modern Browsers */
+				url('/fonts/Alternate\ Gothic\ No3\ D\ Regular.otf') format('truetype'),
+				/* Safari, Android, iOS */
+				url('/fonts/Alternate\ Gothic\ No3\ D\ Regular.otf') format('svg');
+			/* Legacy iOS */
+		}
+
+		body {
+			font-family: 'Alternate Gothic No3 D', 'Times New Roman', Helvetica, sans-serif;
+		}
+	</style>
+</head>
+
+<body class="min-h-screen flex flex-col">
+	<div>%sveltekit.body%</div>
+</body>
+
+</html>
